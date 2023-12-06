@@ -18,16 +18,4 @@ public class HelloWorldService {
 
 	}
 
-	public String getTitle(String name) {
-
-		logger.debug("getTitle() is executed! $name : {}", name);
-
-		if(StringUtils.isEmpty(name)){
-			return "Hello Docker";
-		}else{
-			return "Hello " + name;
-		}
-		
-	}
-
 }
